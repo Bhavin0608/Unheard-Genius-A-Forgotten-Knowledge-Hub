@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #1d1d1d;
+}
+/* Navigation Bar + image */
+.navbar{
+    height: 100px;
+    width: auto;
+    background-color: #3d3d3d;
+    display: flex;
+}
+.nav-items{
+   margin-left: 65%;
+   margin-top: 39px;
+}
+.nav-items a{
+    text-decoration: none;
+    padding: 25px;
+    color: #ffc900;
+}
+.nav-items a:hover{
+    color: white;
+    background-color: #ffc900;
+    border-radius: 10px;
+}
+.logo img{
+    margin-left: 30px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+/* Main form Part */
+form{
+    width: 450px;
+    background-color: #6A9C89;
+    border-radius: 20px;
+    text-align: left;
+    margin: auto;
+    padding: 50px;
+    color: #C1D8C3;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 75px;
+}
+#bsty{
+    font-size: xx-large;
+    color: beige;
+}
+.bst {
+    font-size: large;
+    color: beige;
+}
+.i-style {
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+}
+#r-button{
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(188, 78, 19);
+    color: white;
+    font-family: Bahnschrift SemiBold;
+    font-size: large;
+}
+#r-button:hover{
+    border: 2px solid rgb(188, 78, 19);
+    background-color: white;
+    color: rgb(188, 78, 19);
+}
+#s-button{
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(1, 103, 59);
+    color: white;
+    font-family: Bahnschrift SemiBold;
+    font-size: large;
+}
+#s-button:hover{
+   border: 2px solid rgb(5, 168, 98);
+   background-color: white;
+   color: rgb(5, 168, 98);
+}
+.t_style{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
