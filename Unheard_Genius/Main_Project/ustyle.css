@@ -49,7 +49,7 @@ body{
     display: flex;
 }
 .content1{
-    height: 400px;
+    height: 425px;
     width: 350px;
     background-color: beige;
     margin-left: 200px;
@@ -68,8 +68,22 @@ body{
     margin: 20px;
     transition-duration: 0.5s;
 }
+#btn{
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    background-color: rgb(13, 142, 19);
+    color: white;
+    font-size: medium;
+    border: 3px solid rgb(13, 142, 19);
+    border-radius: 25px;
+}
+#btn:hover{
+    background-color: white;
+    color: rgb(13, 142, 19);
+}
 .content2{
-    height: 400px;
+    height: 425px;
     width: 350px;
     background-color: beige;
     margin-left: 20px;
