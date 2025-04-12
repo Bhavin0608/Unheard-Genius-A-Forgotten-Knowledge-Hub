@@ -6,7 +6,7 @@ body {
     background-color: #1d1d1d;
 }
 /* Navigation Bar + image */
-.navbar{
+/* .navbar{
     height: 100px;
     width: auto;
     background-color: #3d3d3d;
@@ -31,7 +31,7 @@ body {
     height: 100px;
     width: 100px;
     border-radius: 50px;
-}
+} */
 /* Main form Part */
 form{
     width: 450px;
@@ -94,7 +94,7 @@ form{
     padding: 5px;
 }
 /* Footer section */
-.footer{
+/* .footer{
     height: 50px;
     width: auto;
     background-color: #3d3d3d;
@@ -104,4 +104,4 @@ form{
     color: #ffc900;
     justify-self: center;
     padding-top: 20px;
-}
+} */
