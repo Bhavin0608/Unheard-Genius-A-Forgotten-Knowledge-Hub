@@ -1,19 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
+    font-family: "Open Sans", sans-serif;
 }
 body {
-    background-color: #1d1d1d;
+    background-color: #000000;
 }
 /* Navigation Bar + image */
-/* .navbar{
+.navbar{
     height: 100px;
     width: auto;
-    background-color: #3d3d3d;
+    background-color: #14213D;
     display: flex;
 }
 .nav-items{
-   margin-left: 65%;
+   margin-left: 60%;
    margin-top: 39px;
 }
 .nav-items a{
@@ -23,7 +25,7 @@ body {
 }
 .nav-items a:hover{
     color: white;
-    background-color: #ffc900;
+    background-color: #FCA311;
     border-radius: 10px;
 }
 .logo img{
@@ -31,7 +33,8 @@ body {
     height: 100px;
     width: 100px;
     border-radius: 50px;
-} */
+}
+
 /* Main form Part */
 form{
     width: 450px;
@@ -94,14 +97,14 @@ form{
     padding: 5px;
 }
 /* Footer section */
-/* .footer{
+.footer{
     height: 50px;
     width: auto;
-    background-color: #3d3d3d;
+    background-color: #14213D;
     margin-top: 100px;
 }
 .footer p{
     color: #ffc900;
     justify-self: center;
-    padding-top: 20px;
-} */
+    padding-top: 18px;
+}
