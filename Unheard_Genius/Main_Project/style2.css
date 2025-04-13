@@ -98,7 +98,7 @@ form{
 }
 /* Footer section */
 .footer{
-    height: 50px;
+    height: auto;
     width: auto;
     background-color: #14213D;
     margin-top: 100px;
@@ -106,5 +106,22 @@ form{
 .footer p{
     color: #ffc900;
     justify-self: center;
-    padding-top: 18px;
+    margin-top: 20px;
+    padding: 18px;
+}
+.icons{
+    display: flex;  
+
+}
+.instagram{
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+    padding-left: 610px;
+}
+.combine{
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
