@@ -103,7 +103,8 @@ body{
     box-sizing: border-box;
 }
 .image{
-    margin-left: 50px;
+    width: 650px;
+    margin: auto;
     padding-top: 40px;
 }
 .image-3 img{
@@ -111,6 +112,17 @@ body{
     width: 750px;
     padding: 40px;
     padding-left: 190px;
+}
+.image-4{
+    height: 350px;
+    width: 350px;
+    margin: auto;
+}
+.image-4 img{
+    height: 350px;
+    width: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .con{
     margin-left: 60px;
