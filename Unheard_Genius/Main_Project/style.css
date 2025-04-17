@@ -3,24 +3,31 @@
     margin: 0;
     padding: 0;
     font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
 }
 body{
     background-color: #000000;
 }
+
 /* Navigation bar + image */
 .navbar{
-    height: 100px;
-    width: auto;
+    height: 150px;
+    width: 100%;
     background-color: #14213D;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
 }
 .nav-items{
-   margin-left: 60%;
-   margin-top: 39px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 .nav-items a{
     text-decoration: none;
-    padding: 20px;
+    padding: 10px;
     color: #ffc900;
 }
 .nav-items a:hover{
@@ -29,38 +36,52 @@ body{
     border-radius: 10px;
 }
 .logo img{
-    margin-left: 30px;
-    height: 100px;
-    width: 100px;
-    border-radius: 50px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
 }
 
 /* Main Content Logos */
-
-.photo1 img{
-    height: 500px;
-    width: 500px;
-    margin: 50px;
+.photo1{
+    max-width: 90%;
+    background-color: beige;
+    margin: 80px auto 0;
     border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+}
+.photo1 img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px;
+    transition: all 0.5s ease;
 }
 .photo1 img:hover{
-    height: 520px;
-    width: 520px;
-    margin: 40px;
-    transition-duration: 0.5s;
+    transform: scale(1.05);
 }
-.photo1{
-    height: 600px;
-    width: 600px;
-    background-color: beige;
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 25px;
+
+/* Restore original dimensions for desktop */
+@media (min-width: 1024px) {
+    .photo1 {
+        width: 600px;
+        height: 600px;
+    }
+    .photo1 img {
+        width: 500px;
+        height: 500px;
+        margin: 35px;
+    }
+    .photo1 img:hover {
+        width: 520px;
+        height: 520px;
+        margin: 32px;
+    }
 }
 
 .why{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 80px;
+    padding: 0 20px;
 }
 .why h1{
     color: #ffc900;
@@ -72,37 +93,32 @@ body{
     color: whitesmoke;
 }
 .para-cont{
-    height: 500px;
-    width: 1440px;
+    max-width: 90%;
     margin: auto;
+    line-height: 1.6;
 }
 
 /* Footer section */
 .footer{
-    height: auto;
-    width: auto;
+    width: 100%;
     background-color: #14213D;
-    /* margin-top: 100px; */
+    margin-top: 100px;
+    padding-bottom: 20px;
 }
 .footer p{
     color: #ffc900;
-    justify-self: center;
+    text-align: center;
     margin-top: 20px;
     padding: 18px;
 }
 .icons{
-    display: flex;  
-
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-top: 20px;
 }
-.instagram{
+.instagram, .combine{
     height: 40px;
     width: 40px;
-    margin-top: 20px;
-    padding-left: 610px;
-}
-.combine{
-    height: 40px;
-    width: 40px;
-    margin-top: 20px;
-    margin-left: 20px;
 }
